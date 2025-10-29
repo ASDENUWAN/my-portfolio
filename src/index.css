@@ -125,7 +125,7 @@ section {
 /* Hero full-bleed */
 /* --- HERO SECTION --- */
 .hero-section {
-  min-height: 70vh;
+  min-height: 80vh;
   display: grid;
   align-content: center;
   text-align: center;
