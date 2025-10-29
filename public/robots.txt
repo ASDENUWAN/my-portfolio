@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sachinthadenuwan.netlify.app/sitemap.xml
+Sitemap: https://sachinthadenuwan.vercel.app/sitemap.xml
