@@ -480,6 +480,20 @@ const App = () => {
           <SectionTitle title="Education" />
           <Row className="justify-content-center g-4">
             <Col md={10} lg={8}>
+              {/* --- USJ --- */}
+              <Card className="edu-card mb-3 d-flex flex-row align-items-center p-3">
+                <div className="edu-logo">
+                  <img src={usjLogo} alt="University of Sri Jayewardenepura" />
+                </div>
+                <div className="edu-content ms-3">
+                  <Card.Title>BSc (Hons) in Computer Science</Card.Title>
+                  <Card.Text>
+                    <strong>University of Sri Jayewardenepura</strong>
+                    <br />
+                    2022 – Present
+                  </Card.Text>
+                </div>
+              </Card>
               {/* --- SLIIT --- */}
               <Card className="edu-card mb-3 d-flex flex-row align-items-center p-3">
                 <div className="edu-logo">
@@ -498,22 +512,6 @@ const App = () => {
                   </Card.Text>
                 </div>
               </Card>
-
-              {/* --- USJ --- */}
-              <Card className="edu-card mb-3 d-flex flex-row align-items-center p-3">
-                <div className="edu-logo">
-                  <img src={usjLogo} alt="University of Sri Jayewardenepura" />
-                </div>
-                <div className="edu-content ms-3">
-                  <Card.Title>BSc (Hons) in Computer Science</Card.Title>
-                  <Card.Text>
-                    <strong>University of Sri Jayewardenepura</strong>
-                    <br />
-                    2022 – Present
-                  </Card.Text>
-                </div>
-              </Card>
-
               {/* --- ANANDA COLLEGE --- */}
               <Card className="edu-card d-flex flex-row align-items-center p-3">
                 <div className="edu-logo">
